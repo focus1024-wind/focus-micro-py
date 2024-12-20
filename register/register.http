@@ -1,0 +1,29 @@
+###
+POST http://127.0.0.1:8848/register
+Content-Type: application/json
+
+{
+  "name": "test",
+  "service": "http://127.0.0.1:8080"
+}
+
+###
+POST http://127.0.0.1:8848/register
+Content-Type: application/json
+
+{
+  "name": "test1",
+  "service": "http://127.0.0.1:8081"
+}
+
+###
+GET http://127.0.0.1:8848/services
+Accept: application/json
+
+###
+GET http://127.0.0.1:8848/service/test
+Accept: application/json
+
+###
+GET http://127.0.0.1:8848/test
+Accept: application/json

@@ -1,0 +1,15 @@
+###
+GET http://127.0.0.1:9527/add/1/2
+Content-Type: application/json
+
+###
+GET http://127.0.0.1:9527/subtract/1/2
+Content-Type: application/json
+
+###
+GET http://127.0.0.1:9527/multiply/1/2
+Content-Type: application/json
+
+###
+GET http://127.0.0.1:9527/divide/1/2
+Content-Type: application/json
