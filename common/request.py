@@ -3,8 +3,9 @@ import json
 
 import requests
 
-from calc_server.config import REGISTER_CENTER
 from common.model import register_services, ServiceInfo
+
+REGISTER_CENTER = f'http://127.0.0.1:8848'
 
 
 class MicroRequestError(Exception):

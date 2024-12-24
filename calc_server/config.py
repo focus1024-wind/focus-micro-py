@@ -7,4 +7,4 @@ KEEPALIVE_TIME = 60
 SERVER_NAME = 'calc_server'
 SERVER = f'http://{SERVER_HOST}:{SERVER_PORT}'
 
-REGISTER_CENTER = f'http://127.0.0.1:8848'
+

@@ -22,6 +22,10 @@ class MicroJsonResponse(BaseModel):
 
 
 class ServiceInfo(BaseModel):
+    """
+    微服务参数信息，用于微服务注册和服务发现
+    """
+
     name: str
     service: str
     register_time: float = time.time()
@@ -42,5 +46,8 @@ class ServiceInfo(BaseModel):
         """
         return hash((self.name, self.service))
 
+    __dict__ = {
+
+    }
 
 register_services: Dict[str, Set[ServiceInfo]] = {}

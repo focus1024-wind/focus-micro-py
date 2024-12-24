@@ -1,6 +1,6 @@
 from typing import Union
 
-from common.model import MicroJsonResponse, ServiceInfo, register_services
+from common.model import ServiceInfo, register_services
 from common.register import register_client
 from common.request import MicroRequest
 
