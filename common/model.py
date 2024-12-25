@@ -46,8 +46,5 @@ class ServiceInfo(BaseModel):
         """
         return hash((self.name, self.service))
 
-    __dict__ = {
-
-    }
 
 register_services: Dict[str, Set[ServiceInfo]] = {}
